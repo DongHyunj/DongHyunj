@@ -1,4 +1,4 @@
-# 👋 안녕하세요, 백엔드 개발자입니다!
+# 👋 안녕하세요, 웹 개발자입니다!
 
 ### 🧑‍💻 소개
 
@@ -16,7 +16,7 @@
   <a href="https://solved.ac/profile/wjdehd555">
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdehd555" height="170" alt="Solved.ac Tier" />
   </a>
-  
+
 </div>
 
 <br>
