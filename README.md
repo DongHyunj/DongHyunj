@@ -2,7 +2,6 @@
 
 ### 🧑‍💻 소개
 
-- 🎓 **한국방송통신대학교** 컴퓨터과학과 (4학년 재학)
 - 🚀 **한화시스템 BEYOND SW 캠프 24기** (2024.12 ~ )
 - 🌱 현재 **Java, Spring, Linux, Network**를 깊이 있게 학습 중입니다.
 - 🏆 **자격증:** 정보처리산업기사, SQLD
@@ -17,14 +16,6 @@
   <a href="https://solved.ac/profile/wjdehd555">
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdehd555" height="170" alt="Solved.ac Tier" />
   </a>
-
-<br><br>
-
-  <img src="https://img.shields.io/badge/Programmers-Lv.0-1E2A38?style=flat-square&logo=Probot&logoColor=white">
-  <img src="https://img.shields.io/badge/Solved-50_Problems-blue?style=flat-square">
-  <br>
-  <img src="https://img.shields.io/badge/SWEA-D2-1E2A38?style=flat-square&logo=Samsung&logoColor=white">
-  <img src="https://img.shields.io/badge/Solved-20_Problems-blue?style=flat-square">
   
 </div>
 
@@ -35,13 +26,13 @@
 <div align="center">
 
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=wjdehd555&theme=flat&no-frame=true&margin-w=15&margin-h=15" alt="trophy" />
+    <img src="https://github-profile-trophy.vercel.app/?username=DongHyunj&theme=flat&no-frame=true&margin-w=15&margin-h=15" alt="trophy" />
   </a>
 
 <br><br>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=wjdehd555&show_icons=true&theme=radical" height="180">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wjdehd555&layout=compact&theme=radical" height="180">
+  <img src="https://github-readme-stats.vercel.app/api?username=DongHyunj&show_icons=true&theme=radical" height="180">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DongHyunj&layout=compact&theme=radical" height="180">
 
 </div>
 
