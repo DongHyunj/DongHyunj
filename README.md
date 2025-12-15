@@ -25,12 +25,6 @@
 
 <div align="center">
 
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=DongHyunj&theme=flat&no-frame=true&margin-w=15&margin-h=15" alt="trophy" />
-  </a>
-
-<br><br>
-
   <img src="https://github-readme-stats.vercel.app/api?username=DongHyunj&show_icons=true&theme=radical" height="180">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DongHyunj&layout=compact&theme=radical" height="180">
 
