@@ -1,18 +1,3 @@
-<!-- 헤더 타이핑 애니메이션 -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94!+%EB%B0%B1%EC%97%94%EB%93%9C+%EA%B0%9C%EB%B0%9C%EC%9E%90+%EC%A0%95%EB%8F%99%ED%98%84%EC%9E%85%EB%8B%88%EB%8B%A4+%F0%9F%91%8B;%EC%9D%B4+%EC%BD%94%EB%93%9C%EA%B0%80+%EC%A0%95%EB%A7%90+%EC%B5%9C%EC%84%A0%EC%9D%B8%EA%B0%80%3F+%EB%8A%98+%EC%A7%88%EB%AC%B8%ED%95%A9%EB%8B%88%EB%8B%A4.;TPS+3.8%EB%B0%B0+%E2%86%91+%7C+%EC%9D%91%EB%8B%B5%EC%8B%9C%EA%B0%84+72%25+%E2%86%93+%EC%84%B1%EB%8A%A5+%EA%B0%9C%EC%84%A0+%EA%B2%BD%ED%97%98;Java+%7C+Spring+Boot+%7C+JPA+%7C+Docker+%7C+Kubernetes" alt="Typing SVG" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=DongHyunj&style=flat-square&color=58A6FF&label=Profile+Views" alt="Profile Views"/>
-</div>
-
----
-
 ## 👨‍💻 About Me
 <div align="center">
   <br>
