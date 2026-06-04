@@ -13,7 +13,7 @@
 - 🏫 **한화시스템 BEYOND SW 캠프 24기** (2024.12 ~ 진행 중)
 - 🏫 **KH 정보교육원 국비 과정 수료** (2023)
 - 🏅 **정보처리산업기사** | **SQLD**
-- 🧩 **백준 Gold V** (꾸준한 알고리즘 문제 풀이 및 로직 최적화 훈련)
+- 🧩 **프로그래머스 PCCE Lv4**
 
 **🔥 Currently Focusing On**
 - `Java`와 `Spring` 생태계를 깊이 있게 파고들며 기초를 다집니다.
@@ -23,20 +23,6 @@
 
 <div align="center">
   <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contributions" />
-</div>
-
----
-
-## 🧩 Algorithm
-
-<div align="center">
-  <a href="https://solved.ac/profile/wjdehd555">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdehd555" height="170" alt="Solved.ac Tier"/>
-  </a>
-  &nbsp;
-  <a href="https://solved.ac/profile/wjdehd555">
-    <img src="http://mazandi.herokuapp.com/api?handle=wjdehd555&theme=dark" height="170" alt="Solved.ac Streak"/>
-  </a>
 </div>
 
 ---
