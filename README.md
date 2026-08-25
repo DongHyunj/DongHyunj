@@ -21,7 +21,7 @@ k6 · nGrinder로 병목을 재현하고, 구조를 바꿔 해결한 뒤, **같�
 
 ---
 
-## <img src="https://media.giphy.com/media/3oriNZoNvn73MZaFYk/giphy.gif" width="25"> Key Results — 모두 직접 측정한 수치입니다
+## <img src="https://media.giphy.com/media/3oriNZoNvn73MZaFYk/giphy.gif" width="25"> Key Results - 모두 직접 측정한 수치입니다
 
 <div align="center">
 
@@ -31,7 +31,7 @@ k6 · nGrinder로 병목을 재현하고, 구조를 바꿔 해결한 뒤, **같�
 | **동일 부하 처리량** | 6,529건 | **18,587건 (약 2.8배)** | k6 최종 런 (성공률 99.97%) |
 | **메시지 정합성** | 유령 4건 · 누락 600여 건 | **0건** | 결제 성공 ↔ Kafka 발행 ↔ 통계 DB 적재 3자 건수 대조 |
 | **장애 후 정합성 회복** | 약 40분 | **약 2분** | Consumer 처리량 21 → 150건/s 개선 후 Lag 소진 실측 |
-| **무중단 배포** | — | **전환 중 실패 응답 0건** | Blue/Green 전환 순간 0.1초 폴링 관측 |
+| **무중단 배포** | - | **전환 중 실패 응답 0건** | Blue/Green 전환 순간 0.1초 폴링 관측 |
 | **목록 조회 TPS** | 2.3 | **8.7 (약 3.8배)** | nGrinder 52VU |
 
 </div>
@@ -40,10 +40,10 @@ k6 · nGrinder로 병목을 재현하고, 구조를 바꿔 해결한 뒤, **같�
 
 ## 🏆 Awards & Teamwork
 
-- 🥇 **BEYOND SW 캠프 24기 우수수료생** — 수료생 20명 중 3명 선정 (한화시스템)
-- 🎖️ **고용노동부 기관 평가 대표 수강생** — 기관 대표 기수에서 2인 선정, 시연 수행
+- 🥇 **BEYOND SW 캠프 24기 우수수료생** - 수료생 20명 중 3명 선정 (한화시스템)
+- 🎖️ **고용노동부 기관 평가 대표 수강생** - 기관 대표 기수에서 2인 선정, 시연 수행
 
-**Nexus 5인 팀 팀장 — 기여와 협업 방식**
+**Nexus 5인 팀 팀장 - 기여와 협업 방식**
 
 <div align="center">
 
@@ -57,38 +57,38 @@ k6 · nGrinder로 병목을 재현하고, 구조를 바꿔 해결한 뒤, **같�
 
 ## 🚀 Projects
 
-### 🏢 Nexus — 프랜차이즈 공급망 주문관리(SCM) SaaS
+### 🏢 Nexus - 프랜차이즈 공급망 주문관리(SCM) SaaS
 
-> 팀 Fiveguys **5인** · 2026.04 – 2026.06 | 담당 : **팀장 · 발주/통계/실시간 알림 백엔드 · 인프라 전반**
+> 팀 Fiveguys **5인** · 2026.04 - 2026.06 | 담당 : **팀장 · 발주/통계/실시간 알림 백엔드 · 인프라 전반**
 
 [![Live](https://img.shields.io/badge/Live_Demo-nexus.deatytim.com-2ea44f?style=flat-square&logo=googlechrome&logoColor=white)](https://nexus.deatytim.com)
 [![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/beyond-sw-camp/be24-fin-Fiveguys-Nexus)
 [![Detail](https://img.shields.io/badge/포트폴리오-트러블슈팅_상세-3b82f6?style=flat-square&logo=githubpages&logoColor=white)](https://donghyunj.github.io/projects/nexus/)
 
-프랜차이즈 본사–가맹점의 매출·재고·발주를 통합 관리하는 B2B SCM. 통계 집계를 **모놀리식 동기 쿼리 → Kafka 이벤트 기반 MSA + Redis Cluster 사전 집계**로 단계적으로 고도화했습니다.
+프랜차이즈 본사-가맹점의 매출·재고·발주를 통합 관리하는 B2B SCM. 통계 집계를 **모놀리식 동기 쿼리 → Kafka 이벤트 기반 MSA + Redis Cluster 사전 집계**로 단계적으로 고도화했습니다.
 
 `Spring Boot` `Kafka` `Redis Cluster` `Kubernetes` `Jenkins` `MariaDB` `SSE` `Prometheus/Grafana` `k6`
 
-- **결제·통계 자원 경합 제거** — 커넥션 풀 경합을 k6로 재현, MSA 분리·조회 라우팅 분리(피크 14.9초 → 2.74초) 후 Redis 사전 집계까지 적용해 결제 p95 최종 **3.5초 → 193ms**
-- **메시지 정합성** — `AFTER_COMMIT` 발행으로 유령 메시지 **4건 → 0건**, 멱등 Consumer + DLQ로 누락 **600여 건 → 0건** (발행 = INSERT 건수 전수 일치 검증)
-- **Redis Cluster(Master 3 · Replica 3) 직접 구축** — 목적별 자료구조 사전 집계 + Pipeline 왕복 15회 → 2회, Consumer 처리량 **21건/s → 150건/s**
-- **K8s 5노드 Blue/Green 무중단 배포** — Jenkins+Kaniko 인클러스터 빌드, 전환 순간 0.1초 폴링으로 **실패 응답 0건 확인**
+- **결제·통계 자원 경합 제거** - 커넥션 풀 경합을 k6로 재현, MSA 분리·조회 라우팅 분리(피크 14.9초 → 2.74초) 후 Redis 사전 집계까지 적용해 결제 p95 최종 **3.5초 → 193ms**
+- **메시지 정합성** - `AFTER_COMMIT` 발행으로 유령 메시지 **4건 → 0건**, 멱등 Consumer + DLQ로 누락 **600여 건 → 0건** (발행 = INSERT 건수 전수 일치 검증)
+- **Redis Cluster(Master 3 · Replica 3) 직접 구축** - 목적별 자료구조 사전 집계 + Pipeline 왕복 15회 → 2회, Consumer 처리량 **21건/s → 150건/s**
+- **K8s 5노드 Blue/Green 무중단 배포** - Jenkins+Kaniko 인클러스터 빌드, 전환 순간 0.1초 폴링으로 **실패 응답 0건 확인**
 
 <details>
 <summary><b>📖 아키텍처 진화 4단계 요약 펼쳐보기</b></summary>
 
 <br>
 
-1. **모놀리식 병목** — 결제·통계가 커넥션 풀 공유, 피크 시 결제 p95 14.9초까지 악화 → MSA 분리 + 라우팅 분리로 2.74초 회복
-2. **Kafka 정합성** — 커밋 전 발행로 생긴 유령 메시지를 건수 대조로 검출, Outbox vs XA vs `AFTER_COMMIT` 비교 후 채택
-3. **Redis 사전 집계** — 통계 6개 API p95 126~401ms → 94~133ms, 7일 TTL + ShedLock 새벽 배치로 실시간/장기 저장 이원화
-4. **장애 복구 실험** — Kafka offset earliest 재생으로 통계 저장소 18,376건 재구축(18분, 중복·DLT 0건), Redis Cluster failover 재현
+1. **모놀리식 병목** - 결제·통계가 커넥션 풀 공유, 피크 시 결제 p95 14.9초까지 악화 → MSA 분리 + 라우팅 분리로 2.74초 회복
+2. **Kafka 정합성** - 커밋 전 발행로 생긴 유령 메시지를 건수 대조로 검출, Outbox vs XA vs `AFTER_COMMIT` 비교 후 채택
+3. **Redis 사전 집계** - 통계 6개 API p95 126~401ms → 94~133ms, 7일 TTL + ShedLock 새벽 배치로 실시간/장기 저장 이원화
+4. **장애 복구 실험** - Kafka offset earliest 재생으로 통계 저장소 18,376건 재구축(18분, 중복·DLT 0건), Redis Cluster failover 재현
 
 </details>
 
 <br>
 
-### 🚕 TalleMalle — 위치 기반 택시 동승 매칭 플랫폼
+### 🚕 TalleMalle - 위치 기반 택시 동승 매칭 플랫폼
 
 > 팀 saraITne **5인** · 2026.01 (4주) | 담당 : **모집(Recruit) 도메인 백엔드 전체**
 
@@ -100,16 +100,16 @@ k6 · nGrinder로 병목을 재현하고, 구조를 바꿔 해결한 뒤, **같�
 
 `Spring Boot 3` `JPA/Hibernate` `WebSocket/STOMP` `MariaDB` `AWS EC2·S3` `nGrinder`
 
-- **N+1 · 카테시안 곱 하이브리드 해결** — owner는 `JOIN FETCH`, 컬렉션은 `@BatchSize(100)` IN절 + Slice 페이징 → TPS **2.3 → 8.7 (3.8배)**
-- **동시 참여 오버부킹 차단** — read-modify-write 경쟁 상태를 비관적 쓰기 락으로 직렬화, 오버부킹·갱신 손실 **0건** (낙관적 락 배제 근거 포함)
-- **정합성 있는 실시간 알림** — `AFTER_COMMIT` 이후에만 STOMP 브로드캐스트, 롤백된 상태가 전파되지 않도록 설계
-- **지도 경계(Bounds) 조회 + 300ms 디바운싱** — 전국 전체 조회를 화면 영역 조회로 축소
+- **N+1 · 카테시안 곱 하이브리드 해결** - owner는 `JOIN FETCH`, 컬렉션은 `@BatchSize(100)` IN절 + Slice 페이징 → TPS **2.3 → 8.7 (3.8배)**
+- **동시 참여 오버부킹 차단** - read-modify-write 경쟁 상태를 비관적 쓰기 락으로 직렬화, 오버부킹·갱신 손실 **0건** (낙관적 락 배제 근거 포함)
+- **정합성 있는 실시간 알림** - `AFTER_COMMIT` 이후에만 STOMP 브로드캐스트, 롤백된 상태가 전파되지 않도록 설계
+- **지도 경계(Bounds) 조회 + 300ms 디바운싱** - 전국 전체 조회를 화면 영역 조회로 축소
 
 ---
 
 ## 🛠️ Tech Stack
 
-**주력 — 문제를 해결할 때 쓰는 것들**
+**주력 - 문제를 해결할 때 쓰는 것들**
 
 ![Java](https://img.shields.io/badge/Java_17-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
@@ -147,7 +147,7 @@ k6 · nGrinder로 병목을 재현하고, 구조를 바꿔 해결한 뒤, **같�
 | 영역 | 내용 | 상태 |
 |:---|:---|:---:|
 | **라이브 데모 상시 운영** | Nexus · TalleMalle을 자체 서버에 배포, 도메인·TLS·모니터링 포함 운영 | ![Live](https://img.shields.io/badge/운영중-2ea44f?style=flat-square) |
-| **포트폴리오 사이트** | [donghyunj.github.io](https://donghyunj.github.io) — 트러블슈팅 전 과정 상세 문서화 | ![Live](https://img.shields.io/badge/운영중-2ea44f?style=flat-square) |
+| **포트폴리오 사이트** | [donghyunj.github.io](https://donghyunj.github.io) - 트러블슈팅 전 과정 상세 문서화 | ![Live](https://img.shields.io/badge/운영중-2ea44f?style=flat-square) |
 | **기술 블로그** | 학습·트러블슈팅 기록 | ![Progress](https://img.shields.io/badge/진행중-3498db?style=flat-square) |
 
 ---
