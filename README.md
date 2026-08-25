@@ -136,12 +136,6 @@ k6 · nGrinder로 병목을 재현하고, 구조를 바꿔 해결한 뒤, **같�
 
 ---
 
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contributions" />
-</div>
-
----
-
 ## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> Current Focus
 
 | 영역 | 내용 | 상태 |
