@@ -140,6 +140,7 @@ k6 · nGrinder로 병목을 재현하고, 구조를 바꿔 해결한 뒤, **같�
 
 | 영역 | 내용 | 상태 |
 |:---|:---|:---:|
+| **한갓지도 (HanGat_Map)** | [제주 지역 기반 지도 서비스](https://github.com/Jeju-Seonbi/HanGat_Map) 신규 팀 프로젝트 - 기획·설계 진행 중 | ![Progress](https://img.shields.io/badge/진행중-3498db?style=flat-square) |
 | **라이브 데모 상시 운영** | Nexus · TalleMalle을 자체 서버에 배포, 도메인·TLS·모니터링 포함 운영 | ![Live](https://img.shields.io/badge/운영중-2ea44f?style=flat-square) |
 | **포트폴리오 사이트** | [donghyunj.github.io](https://donghyunj.github.io) - 트러블슈팅 전 과정 상세 문서화 | ![Live](https://img.shields.io/badge/운영중-2ea44f?style=flat-square) |
 | **기술 블로그** | 학습·트러블슈팅 기록 | ![Progress](https://img.shields.io/badge/진행중-3498db?style=flat-square) |
